@@ -345,11 +345,6 @@ export const IconWrapper = styled.div`
   margin: 60px 0 0;
 
   @media (max-width: 992px) {
-    align-items: flex-start;
-    margin: 30px 0 0;
-    position: absolute;
-    bottom: -810px;
-    left: 18px;
     display: none;
   }
 `;
