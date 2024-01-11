@@ -36,7 +36,7 @@ export const InputButton = styled.button`
   color: #ffffff;
   border: 1px solid #fff;
   border-radius: 34px;
-  padding: 18px 67px;
+  padding: 12px 67px;
   background-color: transparent;
   cursor: pointer;
 

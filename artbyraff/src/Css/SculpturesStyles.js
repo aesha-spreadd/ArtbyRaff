@@ -40,7 +40,7 @@ export const SculpturesHandprintingHeadingTitle = styled.h2`
   }
 
   @media (max-width: 420px) {
-    font-size: 39px;
+    font-size: 38px;
     letter-spacing: 0;
     right: 68px;
     top: 34px;
@@ -72,7 +72,7 @@ export const SculpturesHandprintingHeadingParagraph = styled.p`
   }
 
   @media (max-width: 420px) {
-    font-size: 39px;
+    font-size: 38px;
     letter-spacing: 0;
     left: -80px;
     top: 14px;

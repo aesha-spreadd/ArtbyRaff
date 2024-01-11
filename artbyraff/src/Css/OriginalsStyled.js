@@ -180,7 +180,7 @@ export const CardProductPrice = styled.h3`
 
 export const CardProductCategory = styled.h3`
   font-family: 'Graphik-light';
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.15;
   color: #919191;
   text-transform: uppercase;
@@ -191,7 +191,7 @@ export const CardProductCategory = styled.h3`
 export const CardProductDescription = styled.p`
   margin: 5px 0 0;
   font-family: 'Graphik-light';
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.15;
   color: #919191;
   text-transform: uppercase;

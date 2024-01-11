@@ -29,7 +29,7 @@ export const ConatctHeadingPart = styled.div`
 
 export const ContactMainHeading = styled.p`
   font-family: 'Graphik-Black';
-  font-size: 83px;
+  font-size: 84px;
   font-weight: 900;
   line-height: 0.54;
   text-align: center;

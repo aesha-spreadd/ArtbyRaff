@@ -52,7 +52,7 @@ export const AboutMeHandprintingHeadingTitle = styled.p`
   top: -113px;
 
   @media (max-width: 776px) {
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 0.52;
     color: #1c1b1c;
@@ -105,7 +105,7 @@ export const AboutMeDescription = styled.p`
   max-width: 967px;
   width: 100%;
   font-family: Graphik-Light;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 1.77;
   text-align: left;

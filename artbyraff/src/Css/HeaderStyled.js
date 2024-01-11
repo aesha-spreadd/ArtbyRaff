@@ -40,7 +40,7 @@ export const HeaderLeftLink = styled.div`
 export const HeaderToggleLogo = styled.div`
   padding: 0;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 16px;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
