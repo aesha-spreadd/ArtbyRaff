@@ -40,7 +40,7 @@ export const HeaderLeftLink = styled.div`
 export const HeaderToggleLogo = styled.div`
   padding: 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -155,6 +155,7 @@ export const RhsLinksList = styled.div`
 export const RhsLinks = styled.div`
   float: left;
   display: block;
+  clear: both;
 `;
 
 export const RhsLinkes = styled.div`
@@ -204,6 +205,7 @@ export const RhsLink = styled.a`
 export const SpanLink = styled.div`
   height: 4px;
   background: transparent;
+  clear: both;
 `;
 
 export const ScrollButtonContainer = styled.div`

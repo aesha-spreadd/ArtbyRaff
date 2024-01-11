@@ -100,12 +100,11 @@ export const FullMenuMainContent = styled.div`
 
   li {
     font-family: 'Graphik-Bold';
-    font-size: 52px;
+    font-size: 48px;
     font-weight: bold;
     line-height: 1.73;
-    letter-spacing: -1.56px;
     text-align: left;
-    color: transparent;
+    color: #fff;
     position: relative;
     display: flex;
     align-items: center;
