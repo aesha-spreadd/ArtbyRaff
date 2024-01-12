@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  AboutMeContainer,
+  Container,
   AboutMeSection,
   AboutMeInnerWrapper,
   AboutMeHandprintingHeading,
@@ -18,7 +18,7 @@ const AboutMe = () => {
     <div id="aboutmesection">
       <AboutMeSection>
         <AboutMeInnerWrapper>
-          <AboutMeContainer>
+          <Container>
             <AboutMeHandprintingHeadingPart>
               <AboutMeHandprintingHeading>
                 <AboutMeHandprintingHeadingTitle>
@@ -45,7 +45,7 @@ const AboutMe = () => {
                 </AboutMeDescription>
               </AboutMeContent>
             </AboutMeInnerContentWrapper>
-          </AboutMeContainer>
+          </Container>
         </AboutMeInnerWrapper>
       </AboutMeSection>
     </div>

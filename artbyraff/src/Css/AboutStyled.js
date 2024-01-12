@@ -8,7 +8,7 @@ export const AboutPageSection = styled.div`
   box-sizing: border-box;
 `;
 
-export const AboutPageContainer = styled.div`
+export const Container = styled.div`
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;

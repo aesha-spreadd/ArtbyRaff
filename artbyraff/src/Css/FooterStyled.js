@@ -6,7 +6,7 @@ export const FooterSection = styled.div`
   background-color: transparent;
   padding: 14px 0;
 
-  @media (max-width: 992px) {
+  @media (max-width: 991px) {
     padding: 45px 0;
   }
 `;
@@ -21,7 +21,7 @@ export const FooterContent = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     flex-direction: column;
   }
 `;
@@ -30,7 +30,7 @@ export const FooterText = styled.div`
   display: flex;
   align-items: center;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     flex: 0 0 auto;
     max-width: 100%;
     width: auto;
@@ -45,7 +45,7 @@ export const CopyText = styled.p`
   text-align: left;
   color: #d5d5d5;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     line-height: 0;
   }
 `;
@@ -58,7 +58,7 @@ export const DesignDevelopeText = styled.p`
   text-align: left;
   color: #d5d5d5;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     line-height: 0;
   }
 `;

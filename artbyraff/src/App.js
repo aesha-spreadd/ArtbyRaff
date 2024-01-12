@@ -9,6 +9,7 @@ import { cardsData } from './Data/Card';
 import FullNavbar from './Components/FullNavbar';
 import Banner from './Components/Banner';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Customized from './Components/Customized';
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
       <GlobalStyles />
       <>
         <Routes>
-          <Route path="/*" element={<Banner />} />
+          <Route path="/*" element={<Customized />} />
           <Route path="/fullnavbar" element={<FullNavbar />} />
           <Route path="/about" element={<About />} />
           <Route path="/aboutme" element={<AboutMe />} />

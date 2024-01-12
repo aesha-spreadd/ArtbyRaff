@@ -1,7 +1,5 @@
-import styled from 'styled-components';
-import { FaFacebook } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
-import { GlobalStyles } from '../GlobalStyled';
+import styled, { css } from 'styled-components';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 export const HeaderSection = styled.div`
   position: relative;
@@ -118,7 +116,7 @@ export const SocialIconsSection = styled.div`
     list-style: none;
   }
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     position: absolute;
     right: 47px;
     top: 77%;
@@ -159,6 +157,7 @@ export const RhsLinks = styled.div`
 `;
 
 export const RhsLinkes = styled.div`
+  cursor: pointer;
   color: #d8cf91;
   padding: 8px 20px 7px 10px;
   text-transform: uppercase;
@@ -171,24 +170,6 @@ export const RhsLinkes = styled.div`
   line-height: 20px;
   font-weight: bold;
   display: none;
-  opacity: 0;
-`;
-
-export const RhsCircle = styled.div`
-  float: left;
-  padding: 0 6px 0 0px;
-  cursor: pointer;
-
-  &:hover {
-    ${RhsLinkes} {
-      display: block;
-      opacity: 1;
-    }
-  }
-`;
-
-export const RhsLinksListItem = styled.div`
-  list-style: none;
 `;
 
 export const RhsLink = styled.a`
@@ -200,6 +181,24 @@ export const RhsLink = styled.a`
   outline: none;
   border-left: 2px solid #ddd;
   background: #ddd;
+
+  &:hover {
+    background: #f86b2c;
+    ${RhsLinkes} {
+      display: block;
+      opacity: 1;
+    }
+  }
+`;
+
+export const RhsCircle = styled.div`
+  float: left;
+  padding: 0 6px 0 0px;
+  cursor: pointer;
+`;
+
+export const RhsLinksListItem = styled.div`
+  list-style: none;
 `;
 
 export const SpanLink = styled.div`

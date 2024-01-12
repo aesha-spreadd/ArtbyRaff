@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  AboutUsFooterConatiner,
+  Conatiner,
   AboutUsFooterSection,
   AboutUsFooterContent,
   AboutUsFooterMainContent,
@@ -10,13 +10,13 @@ const AboutUsFooter = () => {
   return (
     <div>
       <AboutUsFooterSection>
-        <AboutUsFooterConatiner>
+        <Conatiner>
           <AboutUsFooterContent>
             <AboutUsFooterMainContent>
               © 2024 ArtbyRaff
             </AboutUsFooterMainContent>
           </AboutUsFooterContent>
-        </AboutUsFooterConatiner>
+        </Conatiner>
       </AboutUsFooterSection>
     </div>
   );

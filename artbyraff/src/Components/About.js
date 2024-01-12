@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  AboutPageContainer,
+  Container,
   AboutPageSection,
   AboutPageLeftInner,
   AboutPageInner,
@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div>
       <AboutPageSection>
-        <AboutPageContainer>
+        <Container>
           <AboutPageInner>
             <AboutPageLeftInner>
               <ImageWrapper>
@@ -58,7 +58,7 @@ const About = () => {
               </AboutPageSignatureBlock>
             </AboutPageRightInner>
           </AboutPageInner>
-        </AboutPageContainer>
+        </Container>
         <AboutUsFooter />
       </AboutPageSection>
     </div>

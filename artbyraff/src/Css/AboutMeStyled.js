@@ -15,13 +15,13 @@ export const AboutMeInnerWrapper = styled.div`
   transition: 0.4s ease-in-out;
 `;
 
-export const AboutMeContainer = styled.div`
+export const Container = styled.div`
   max-width: 1128px;
   width: 100%;
   height: 500px;
   margin: 0 auto;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     height: 300px;
   }
 `;
@@ -51,7 +51,7 @@ export const AboutMeHandprintingHeadingTitle = styled.p`
   right: 236px;
   top: -113px;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     font-size: 26px;
     font-weight: 600;
     line-height: 0.52;
@@ -72,7 +72,7 @@ export const AboutMeHandprintingHeadingParagraph = styled.h2`
   right: 82px;
   top: -120px;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     font-size: 28px;
     line-height: 0.96;
     letter-spacing: 5.32px;
@@ -80,7 +80,7 @@ export const AboutMeHandprintingHeadingParagraph = styled.h2`
     right: -122px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 575px) {
     right: -25px;
   }
 `;
@@ -111,7 +111,7 @@ export const AboutMeDescription = styled.p`
   text-align: left;
   color: #d8d8d8;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     max-width: 450px;
     width: 100%;
     margin: 25px auto 0 60px;
@@ -121,7 +121,7 @@ export const AboutMeDescription = styled.p`
     line-height: 1.93;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 575px) {
     max-width: 200px;
     width: 100%;
     margin: 25px auto 0 60px;

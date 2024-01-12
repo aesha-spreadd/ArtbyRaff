@@ -13,6 +13,10 @@ body {
     padding: 0;
     background-color:#161515;
   }
+  
+ .slick-slide.slick-active.slick-center.slick-current {
+  width: 563px !important;
+}
 
   @font-face {
     font-family: 'Graphik-Semibold';

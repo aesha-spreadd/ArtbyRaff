@@ -13,7 +13,7 @@ export const OriginalHandprintingInner = styled.div`
   padding: 0 0 50px;
 `;
 
-export const OriginalsContainer = styled.div`
+export const Container = styled.div`
   margin: 0 auto;
   max-width: 1185px;
   width: 100%;
@@ -30,7 +30,7 @@ export const HandprintingHeading = styled.div`
   max-width: 100%;
   width: auto;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     margin: 0 -65px 0 0;
   }
 `;
@@ -47,7 +47,7 @@ export const HandprintingHeadingTitle = styled.h2`
   right: 39px;
   top: -20px;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     font-size: 42px;
     right: 59px;
     top: 26px;
@@ -68,7 +68,7 @@ export const HandprintingHeadingParagraph = styled.p`
   right: 65px;
   top: -96px;
 
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     font-size: 42px;
     right: 79px;
     top: 11px;
@@ -94,11 +94,11 @@ export const HandPrintingCardsContent = styled.div`
     margin: -50px 0 0 80px;
   }
 
-  @media (max-width: 778px) {
+  @media (max-width: 767px) {
     margin: 50px 0 0 84px;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 575px) {
     margin: 50px 0 0 42px;
   }
 `;

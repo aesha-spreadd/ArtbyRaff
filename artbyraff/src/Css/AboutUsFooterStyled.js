@@ -10,7 +10,7 @@ export const AboutUsFooterSection = styled.div`
   margin: 0 auto;
 `;
 
-export const AboutUsFooterConatiner = styled.div`
+export const Conatiner = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

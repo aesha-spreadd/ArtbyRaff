@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   SculpturesSection,
-  SculpturesContainer,
+  Container,
   SculpturesInnerWrapper,
   SculpturesHandprintingHeadingTitle,
   SculpturesHandprintingHeadingParagraph,
@@ -36,7 +36,7 @@ const Sculptures = () => {
     <div id="sculpturessection">
       <SculpturesSection>
         <SculpturesInnerWrapper>
-          <SculpturesContainer>
+          <Container>
             <HandprintingHeadingPart>
               <HandprintingHeading>
                 <SculpturesHandprintingHeadingTitle>
@@ -169,7 +169,7 @@ const Sculptures = () => {
                 </SculpturesHandPrintingCardsContent>
               </HandPrintingCards>
             </HandPrintingProducts>
-          </SculpturesContainer>
+          </Container>
           <HandPrintButton>
             {showLoadMoreButton && (
               <ButtonWrapper onClick={handleLoadMoreClick}>

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import {
-  OriginalsContainer,
+  Container,
   OriginalsSection,
   OriginalHandprintingInner,
   HandprintingHeadingPart,
@@ -37,7 +37,7 @@ const Originals = ({ cardsData }) => {
     <div id="originalssection">
       <OriginalsSection>
         <OriginalHandprintingInner>
-          <OriginalsContainer>
+          <Container>
             <HandprintingHeadingPart>
               <HandprintingHeading>
                 <HandprintingHeadingTitle>Originals</HandprintingHeadingTitle>
@@ -76,7 +76,7 @@ const Originals = ({ cardsData }) => {
                 </HandPrintingCardsContent>
               </HandPrintingCards>
             </HandPrintingProducts>
-          </OriginalsContainer>
+          </Container>
           <HandPrintButton>
             {showLoadMoreButton && (
               <ButtonWrapper onClick={handleLoadMoreClick}>
