@@ -195,7 +195,7 @@ const Header = () => {
           </RhsLinksListItem>
           <RhsLinksListItem className="first">
             <RhsCircle>
-              <RhsLink href="/">&nbsp;</RhsLink>
+              <RhsLink href="#customizessection">&nbsp;</RhsLink>
             </RhsCircle>
             <RhsLinks>
               <RhsLinkes className="section-titles">CUSTOMIZED</RhsLinkes>

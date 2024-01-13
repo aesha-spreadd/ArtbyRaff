@@ -40,7 +40,7 @@ export const InputButton = styled.button`
   background-color: transparent;
   cursor: pointer;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     font-size: 14px;
     padding: 11px 67px;
   }

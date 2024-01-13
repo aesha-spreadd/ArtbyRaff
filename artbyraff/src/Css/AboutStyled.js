@@ -20,7 +20,7 @@ export const AboutPageInner = styled.div`
   align-items: center;
   margin: 0 auto;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     margin: 120px 0 0;
     text-align: center;
@@ -35,7 +35,7 @@ export const AboutPageLeftInner = styled.div`
   justify-content: flex-end;
   margin: 0 0 0 -40px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     display: flex;
     justify-content: center;
     max-width: 80%;
@@ -51,7 +51,7 @@ export const ImageWrapper = styled.div`
     height: auto;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 0;
 
     img {
@@ -66,7 +66,7 @@ export const AboutPageRightInner = styled.div`
   width: 100%;
   position: relative;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     max-width: 80%;
     width: 100%;
   }
@@ -88,7 +88,7 @@ export const AboutPageHeading = styled.h2`
   text-transform: uppercase;
   color: #ffffff;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 20px;
     justify-content: center;
   }
@@ -105,7 +105,7 @@ export const AboutPageParagraph = styled.p`
   max-width: 471px;
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 12px;
   }
 `;

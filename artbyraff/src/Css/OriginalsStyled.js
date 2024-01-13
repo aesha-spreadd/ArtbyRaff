@@ -30,7 +30,7 @@ export const HandprintingHeading = styled.div`
   max-width: 100%;
   width: auto;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 0 -65px 0 0;
   }
 `;
@@ -47,7 +47,7 @@ export const HandprintingHeadingTitle = styled.h2`
   right: 39px;
   top: -20px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 42px;
     right: 59px;
     top: 26px;
@@ -68,7 +68,7 @@ export const HandprintingHeadingParagraph = styled.p`
   right: 65px;
   top: -96px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 42px;
     right: 79px;
     top: 11px;
@@ -94,11 +94,11 @@ export const HandPrintingCardsContent = styled.div`
     margin: -50px 0 0 80px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 50px 0 0 84px;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     margin: 50px 0 0 42px;
   }
 `;
@@ -117,7 +117,7 @@ export const CardDetails = styled.div`
     transform: translateY(-30px);
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     width: 19%;
     min-width: 210px;
     min-height: 362px;
@@ -146,7 +146,7 @@ export const CardDetailsImage = styled.div`
     min-width: 190px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     left: -55px;
 
     img {
@@ -205,7 +205,7 @@ export const HandPrintButton = styled.div`
   text-align: center;
   padding: 0 0 20px 0;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     display: flex;
     justify-content: center;
   }

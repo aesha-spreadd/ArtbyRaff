@@ -77,7 +77,7 @@ const Customized = () => {
   }, [settings.initialSlide]);
 
   return (
-    <div>
+    <div id="customizessection">
       <CustomizedSection>
         <Container>
           <CustomizedBanner>

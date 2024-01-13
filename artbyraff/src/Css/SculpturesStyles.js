@@ -33,13 +33,13 @@ export const SculpturesHandprintingHeadingTitle = styled.h2`
     top: -17px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 42px;
     right: 152px;
     top: 34px;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     font-size: 38px;
     letter-spacing: 0;
     right: 68px;
@@ -65,13 +65,13 @@ export const SculpturesHandprintingHeadingParagraph = styled.p`
     top: -166px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 40px;
     left: -345px;
     top: 14px;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     font-size: 38px;
     letter-spacing: 0;
     left: -80px;
@@ -95,7 +95,7 @@ export const CardDetailsImageCircle = styled.div`
     min-width: 247px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     left: -55px;
 
     img {
@@ -119,7 +119,7 @@ export const SculpturesCardDetails = styled.div`
     transform: translateY(-30px);
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     width: 19%;
     min-width: 210px;
     min-height: 362px;
@@ -139,7 +139,7 @@ export const SculpturesHandPrintingCardsContent = styled.div`
     margin: 50px 0 0 12px;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     display: flex;
     align-items: center;
     justify-content: center;

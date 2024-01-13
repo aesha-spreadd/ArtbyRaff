@@ -69,7 +69,7 @@ export const ArtByImage = styled.div`
     display: block;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     img {
       margin: -33px 0 0 -180px;
       max-width: 150px;
@@ -133,7 +133,7 @@ export const FullMenuMainContent = styled.div`
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: -40px 0 0;
 
     ul {
@@ -153,7 +153,7 @@ export const FullMenuIcon = styled.div`
   flex-wrap: wrap;
   margin: 150px -15px 0 -15px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 80px 0 0;
   }
 `;
@@ -163,7 +163,7 @@ export const FullMenuSocialIcon = styled.div`
   justify-content: center;
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: -20px 0 0;
   }
 `;
@@ -174,7 +174,7 @@ export const FacebookIcon = styled(FaFacebook)`
   height: 50px;
   width: 50px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     height: 30px;
     max-width: 30px;
     width: 100%;
@@ -187,7 +187,7 @@ export const InstagramIcon = styled(FaInstagram)`
   height: 50px;
   width: 50px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     height: 30px;
     max-width: 30px;
     width: 100%;

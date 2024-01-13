@@ -38,12 +38,12 @@ export const ContactMainHeading = styled.p`
   top: 40px;
   color: #1c1b1c;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 30px;
     line-height: 1.43;
   }
 
-  @media (max-width: 575px) {
+  @media (max-width: 576px) {
     display: none;
   }
 `;
@@ -62,7 +62,7 @@ export const ContactMainParagraph = styled.p`
   max-width: 850px;
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 28px;
     line-height: 1.43;
   }
@@ -88,7 +88,7 @@ export const ContactFormDataHeading = styled.p`
   color: #a2a2a2;
   margin: 30px 0 70px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 14px;
     line-height: 2.57;
     margin: 10px 0 0;
@@ -98,7 +98,7 @@ export const ContactFormDataHeading = styled.p`
 export const ContactText = styled.p`
   margin: 0;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 10px 32px;
   }
 `;
@@ -111,7 +111,7 @@ export const SpanText = styled.span`
   color: #e8e3e8;
   margin: 0 2px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 16px;
     margin: 10px 2px;
   }
@@ -142,7 +142,7 @@ export const Input = styled.input`
     border: transparent;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-size: 14px;
   }
 `;
@@ -157,7 +157,7 @@ export const ContactFooterPart = styled.div`
   padding: 4px 0 63px;
   border-bottom: 1px solid #6d6d6d;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     padding: 23px 0 240px 32px;
   }
 `;
@@ -189,7 +189,7 @@ export const FooterMainLink = styled.div`
 export const FooterLink = styled.div`
   display: flex;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
@@ -207,7 +207,7 @@ export const FooterName = styled.p`
   margin: 0 28px 0 0;
   cursor: pointer;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 0;
   }
 `;
@@ -222,7 +222,7 @@ export const FooterContactInfo = styled.div`
   color: #d5d5d5;
   display: none;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     display: block;
   }
 `;
@@ -241,7 +241,7 @@ export const FooterHed = styled.div`
   margin: 40px 0 0;
   color: #ffffff;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     font-family: 'Graphik-Medium';
     font-size: 22px;
     font-weight: 500;
@@ -258,7 +258,7 @@ export const FooterEmailData = styled.div`
   margin: 0;
   border-bottom: 1px solid #fff;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     margin: 0 0 0 19px;
   }
 `;
@@ -321,7 +321,7 @@ export const ContactBoxRightDescription = styled.div`
   margin: 49px 24px 0 0px;
   color: #d5d5d5;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     display: none;
   }
 `;
@@ -339,7 +339,7 @@ export const ContactIcons = styled.div`
   display: flex;
   margin: -10px 19px 0 0;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     align-items: flex-start;
     margin: 30px 0 0;
   }
@@ -350,7 +350,7 @@ export const IconWrapper = styled.div`
   gap: 20px;
   margin: 60px 0 0;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     display: none;
   }
 `;
@@ -388,7 +388,7 @@ export const InputButton = styled.button`
     border: 1px solid #7e7555;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     padding: 13px 35px;
   }
 `;

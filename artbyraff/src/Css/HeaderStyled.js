@@ -24,7 +24,7 @@ export const HeaderData = styled.div`
   align-items: center !important;
   margin: 0 -15px;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     margin: -28px 21px;
   }
 `;
@@ -95,7 +95,7 @@ export const ItemCount = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 991px) {
+  @media (max-width: 992px) {
     position: absolute;
     right: 20px;
     bottom: -14px;
@@ -116,7 +116,7 @@ export const SocialIconsSection = styled.div`
     list-style: none;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     position: absolute;
     right: 47px;
     top: 77%;
